@@ -22,3 +22,22 @@ numbers.remove(2) # this will remove the number 2 from the list
 
 # len is a built-in function that returns the number of items in a list
 print(len(numbers)) # this will print the length of the list, which is 6 because there are 6 items in the list
+
+furniture = [ 'chair', 'sofa', 'table',]
+'chair' == 100
+'sofa' == 800
+'table' == 525
+buying = input("what are you buying  chairs, sofas or tables ")
+if buying =='table':
+ print('the price is',525)
+ 
+
+if buying == 'sofa':
+ print('the price is', 800)
+ print('card only payment for items above 600')
+
+if buying == 'chair':
+ print("the cost is",100)
+
+
+
